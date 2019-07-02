@@ -20,11 +20,13 @@ Once you have ImageMagick installed, just download the generate-iOS-appicons.sh 
 The script generates the files in the current working directory.
 You will frequently want your resized icons to be in the same directory as your original high resolution icon, in this case you'll need to execute the script from that directory.
 The script takes just one command line argument: a file with your high resolution icon.
-```$ cd /path/to/high/res/icon
+```
+$ cd /path/to/high/res/icon
 $ /path/to/the/script/generate-iOS-appicons.sh high-resolution-icon.png
 ```
 After executing the script, you'll see the following smaller resolution files in the working directory:
-```high-resolution-icon.png_1024pt@1x.png
+```
+high-resolution-icon.png_1024pt@1x.png
 high-resolution-icon.png_20pt@1x.png
 high-resolution-icon.png_20pt@2x.png
 high-resolution-icon.png_20pt@3x.png
